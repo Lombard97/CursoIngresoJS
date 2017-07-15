@@ -5,7 +5,11 @@ function Mostrar()
 	var acumulador=0;
 	var respuesta='si';
 
-
+		while(respuesta='si')
+		{
+			contador=contador+1
+			console.log("vuelta"+contador);
+		}
 document.getElementById('suma').value=acumulador;
 document.getElementById('promedio').value=acumulador/contador;
 
