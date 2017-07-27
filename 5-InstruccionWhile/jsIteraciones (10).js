@@ -1,10 +1,11 @@
-/*function Mostrar()
+function Mostrar()
 /*ejemplo de obtencion validacion y extraccion de informacion 
 	de esta encuenta se debe informar 1 cuantas 
 	muejeres y cuantos hombres fueron entrevistados 2 
 	la persona de mayor edad 3 el promedio de edad 
 	4 quien ganara las elecciones 
-	
+*/	
+
 {
 
 	var contador=0;
@@ -65,13 +66,13 @@
 			console.log("cantidad de ceros ingresados: "+contadorc);
 			console.log("promedio de positivos: "+promediop);
 			console.log("promedio de negativos: "+promedion);
-			console.log("diferencia entre positivos y negativos")+diferencia;
+			alert("diferencia entre positivos y negativos")+diferencia;
 
 }
 
 
 //FIN DE LA FUNCIÓN 
-*/ 
+
 
 
 
@@ -103,7 +104,7 @@
 	*/
 
 
-
+/*
 	function Mostrar()
 {
 	/*Ejercicio de obtencion, validacion y extraccion de informacion de encuestas,
@@ -121,7 +122,7 @@
 		11. Cuantas personas de 50 años mujeres votaron
 		12. Cuantas mujeres de 50 años de mas de un metro votaron al gobierno*/
 
-	var respuesta="SI";
+/*	var respuesta="SI";
 
 
 	//=========DEFINICION DE VARIABLES
@@ -274,7 +275,7 @@
 		}
 
 		//12. Cuantas mujeres de 50 años de mas de un metro votaron al gobierno*/
-		if(usexo=="F" && uedad=="50" && ualtura>100 && uvoto=="1")
+/*		if(usexo=="F" && uedad=="50" && ualtura>100 && uvoto=="1")
 		{
 			CEdad50MujAlt1mVOT1++;
 		}
@@ -329,7 +330,7 @@
 	alert("11. La cantidad de mujeres de 50 años que votaron es de "+CEdad50Muj);
 
 	//12. Cuantas mujeres de 50 años de mas de un metro votaron al gobierno*/
-	alert("12. La cantidad de mujeres de 50 años de mas de un metro, que votaron al gobierno es de "+CEdad50MujAlt1mVOT1);
+/*	alert("12. La cantidad de mujeres de 50 años de mas de un metro, que votaron al gobierno es de "+CEdad50MujAlt1mVOT1);
 
 	/*var respuesta="si";
 	var contador=0;
@@ -432,7 +433,7 @@
 
 	//INFORMAMOS RESULTADOS========================================
 	alert("C MASC: "+csexM+" C FEM: "+csexF);*/
-}//FIN DE LA FUNCIÓN
+//FIN DE LA FUNCIÓN
 
 
 
